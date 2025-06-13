@@ -1,0 +1,151 @@
+#root {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.todo-container {
+  background: #23272f;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px #0003;
+  padding: 2.5rem 2rem 2rem 2rem;
+  margin-top: 2rem;
+}
+
+h1 {
+  color: #61dafb;
+  margin-bottom: 1.5rem;
+  font-size: 2.2rem;
+}
+
+.todo-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  background: #181c22;
+  color: #fff;
+}
+
+.todo-btn {
+  background: linear-gradient(90deg, #61dafb, #646cff);
+  color: #23272f;
+  border: none;
+  border-radius: 8px;
+  padding: 0 1.2rem;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.todo-btn:hover {
+  background: linear-gradient(90deg, #646cff, #61dafb);
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-item {
+  background: #181c22;
+  color: #fff;
+  border-radius: 8px;
+  margin-bottom: 0.7rem;
+  padding: 0.8rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px #0002;
+  transition: background 0.2s;
+}
+.todo-item:hover {
+  background: #23272f;
+}
+
+.todo-item.done {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+.edit-input {
+  flex: 1;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #646cff;
+  font-size: 1rem;
+  background: #23272f;
+  color: #fff;
+  margin-right: 0.5rem;
+}
+
+.task-text {
+  flex: 1;
+  text-align: left;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #ff4d4f;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.delete-btn:hover {
+  background: #d9363e;
+}
+
+.empty {
+  color: #aaa;
+  font-style: italic;
+  margin-top: 1rem;
+}
