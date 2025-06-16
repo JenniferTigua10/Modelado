@@ -1,0 +1,25 @@
+# Web framework and server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# AI/ML framework
+agno>=0.1.0
+
+# LLM providers
+groq==0.28.0
+
+# Financial data
+yfinance==0.2.28
+
+# Search tools
+duckduckgo-search==4.0.0
+
+# HTTP and file handling
+python-multipart==0.0.6
+requests==2.31.0
+
+# Additional dependencies for stability
+pydantic>=2.4.0
+httpx>=0.25.0
+numpy>=1.24.0
+pandas>=2.0.0
